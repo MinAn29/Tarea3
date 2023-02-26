@@ -1,0 +1,51 @@
+****Index.html****
+<html>
+	<head>
+		<title>HTML Base</title>
+		<link rel="stylesheet" href="css/estilos.css">
+	</head>
+	<body>
+		<div>
+			<h1><img src="images/concert_logo.png" alt="Logo" style="background-color: white"> Tu concierto</h1>
+			<p>
+				Bienvenido a este blog de conciertos...
+			</p>
+			<img src="images/concert.jpg" alt="Concierto" style="width: 80%">
+
+			<br>
+			<a href="mailto:info@tuconcierto.com">Info</a>
+		</div>
+	</body>
+</html>
+
+****estilos.css****
+body p{
+	color: green;
+}
+
+body{
+	background-color: black;
+	color: white !important;
+	font-family: Verdana;
+}
+
+h1 {
+	font-family: Arial;
+}
+
+p{
+	color: blue
+}
+
+a {
+	color: inherit;
+}
+
+div{
+	margin-top: 10px;
+	margin-left: 20px;
+}
+
+body{
+	color: red;
+}
